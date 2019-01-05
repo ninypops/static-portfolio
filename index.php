@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="font-awesome" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 <body>
 
 <section class="left">
@@ -14,17 +15,19 @@
 </section>
 
 <footer>
-    <form >
-        <input type="text" placeholder="name" name="name">
-        <input type="email" placeholder="email" name="email">
-        <select name="enquiry">
-            <option value="contract work">contract work</option>
-            <option value="freelance work">freelance work</option>
-            <option value="hiring">hiring</option>
-            <option value=""></option>
-        </select>
-        <input type="submit" value="Submit">
-    </form>
+    <div class="container">
+        <form >
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="email" name="email">
+            <select name="enquiry">
+                <option value="contract work">contract work</option>
+                <option value="freelance work">freelance work</option>
+                <option value="hiring">hiring</option>
+                <option value=""></option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </footer>
 
 </body>
