@@ -1,0 +1,57 @@
+/* Variables */
+$noir  : #fff;
+$blanc : #000;
+
+@import 'media-queries.scss';
+
+h1 {
+  
+}
+
+section {
+  display: block;
+  
+  &.left {
+    background: $blanc;
+    color: $noir;
+    width: 100%;
+    margin: auto 0;
+
+    @include tablet {
+      width: 40%;
+        
+    }
+  } /* left */
+  
+  &.right {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-image: url('https://cdn-l-cyberpunk.cdprojektred.com/gallery/1080p/screen-just-around-the-corner-en.jpg');
+    background-size: cover;
+    background-position: right;
+    &:before {
+      content: "";
+      position: absolute;
+      top: 20%;
+      right: 45%;
+      height: 100%;
+      width: 150%;
+      background: $blanc;
+      -webkit-transform: rotate(100deg);
+      -moz-transform: rotate(100deg);
+      transform: rotate(100deg);
+    }
+
+    @include tablet {
+      width: 60%;
+      right: 0;
+    }
+  } /* right */
+
+  @include tablet {
+    display: inline-block;
+    min-height: 700px;
+  }
+} /* section */
