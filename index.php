@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<head>
 <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="font-awesome" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
 
 <section class="left">
-  <h1>Nina Limbrick</h1>
-  <p>Lorem ipsum dolor sit amet, graeci lucilius delicatissimi ut mel. His ex minim theophrastus. Suas voluptaria ne cum, te nec fugit praesent suavitate. Viris voluptatum consectetuer eam id. Viris equidem consetetur est ei.</p>
+    <div>
+        <h1>Nina Limbrick</h1>
+        <p>Junior Front End Developer based in Nottingham.</p>
 
-<p>Facete oporteat dissentiunt usu ad. Sumo utroque accumsan has id, usu appellantur liberavisse ad, ne omnis veniam eam. Nec vero pertinax definiebas cu. Qui no error vulputate, dolorum accusam nec ei, no laudem tibique tacimates ius. Nec ne liber quaeque, quis tation assueverit at quo.</p>
+        <p>3+ years of experience (in small & large agency environments). I build websites and web apps. I'm passionate about extending the conversation of Women in STEM.</p>
+
+        <span class="links">
+            <a class="button">Portfolio</a>
+            <a class="button">Blog</a>
+            <a class="button">Resume</a>
+            <a href="" target="_blank" title="@ninypops"><i class="icon-twitter"></i></a>
+        </span>
+    </div>
 </section>
   
 <section class="right">
 </section>
 
-<footer>
+<!-- <footer>
     <div class="container">
         <form >
             <input type="text" placeholder="name" name="name">
@@ -28,7 +40,7 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-</footer>
+</footer> -->
 
 </body>
 </html>
