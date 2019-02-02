@@ -47,8 +47,9 @@ a.social {
 a.button {
   border: none;
   padding: .5em 1em;
-  border: 2px solid #ccc;
   border-radius: 5px;
+  background: #da6b13;
+  color: white;
   &:hover {
     background: #ccc;
     cursor: pointer;
@@ -57,7 +58,10 @@ a.button {
   }
   &:first-of-type {
     margin-right: 5px;
+    background: #2b81bf;
   }
+
+
 }
 
 .container {
@@ -112,8 +116,8 @@ section {
     background-image: url('assets/computer.jpg');
     background-size: cover;
     background-position: center;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(10%);
 
     @include desktop {
       width: 60%;
