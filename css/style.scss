@@ -1,6 +1,6 @@
 /* Variables */
-$blanc  : #fff;
-$noir : #000;
+$blanc  : rgb(246, 246, 246);
+$noir : rgb(47, 47, 47);
 $highlight  : #228c39;
 
 $primaryFont  : 'Raleway', sans-serif;
@@ -8,65 +8,32 @@ $titleFont    : 'Kaushan Script', cursive;
 
 @import 'media-queries.scss';
 @import 'fontello.css';
+@import 'type.scss';
+@import 'forms.scss';
+@import 'buttons.scss';
+@import 'animate.scss';
+
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 html {
-  height: 100%;
   overflow: hidden;
 }
 
 body {
-  height: 100%;
   margin: 0;
   font-family: $primaryFont;
   line-height: 1.6em;
-}
-
-h1 {
-  letter-spacing: 4px;
-  font-family: $titleFont;
-  font-size: 2rem;
-  font-weight: 300;
-}
-
-.fa {
-  font-size: 24px!important;
-  color: #666;
-  padding: .5em .1em;
-  &:hover {
-    color: lighten(#666, 20);
-    transition: .8s;
-  }
-}
-
-a.social {
-  padding: .6em .2em;
-}
-
-a.button {
-  border: none;
-  padding: .5em 1em;
-  border-radius: 5px;
-  background: #da6b13;
-  color: white;
-  &:hover {
-    background: #ccc;
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: .8s;
-  }
-  &:first-of-type {
-    margin-right: 5px;
-    background: #2b81bf;
-  }
-
-
+  background: $blanc;
 }
 
 .container {
   width: 1400px;
   margin: 0 auto;
+}
+
+.divscroll {
+  height: 100vh;
 }
 
 section {
@@ -142,50 +109,3 @@ section {
     min-height: 700px;
   }
 } /* section */
-
-.fadeIn {
-  opacity: 0;
-  animation: fadeIn 1.8s forwards;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  30% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-form {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-
-   & > * {
-    padding: 10px 0;
-    margin: 0 10px;
-    width: 200px;
-    border: none;
-    border-bottom: 2px solid $noir;
-   }
-
-   input[type="submit"] {
-     border-bottom: none;
-   }
-
-   select {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-   }
- }
-
-footer {
-  padding: 60px 0;
-}

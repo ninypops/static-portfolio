@@ -1,0 +1,21 @@
+a.social {
+    padding: .6em .2em;
+  }
+  
+  a.button {
+    border: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+    background: #db7c2e;
+    color: white;
+    &:hover {
+      opacity: .6;
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: .8s;
+    }
+    &:first-of-type {
+      margin-right: 5px;
+      background: #37b1a1;
+    }
+  }

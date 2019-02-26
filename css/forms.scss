@@ -1,0 +1,23 @@
+form {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+     & > * {
+      padding: 10px 0;
+      margin: 0 10px;
+      width: 200px;
+      border: none;
+      border-bottom: 2px solid $noir;
+     }
+  
+     input[type="submit"] {
+       border-bottom: none;
+     }
+  
+     select {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+     }
+   }
