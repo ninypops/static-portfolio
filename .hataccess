@@ -5,4 +5,5 @@ RewriteRule ^index.php$ http://www.ninypops.com/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 RewriteRule . /index.php [L]

@@ -1,0 +1,26 @@
+ul.navigation {
+    position: fixed;
+    background: $noir;
+    display: flex;
+    flex-flow: row wrap;
+    color: $white;
+    z-index: 1;
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    width: 100%;
+    margin-top: 0;
+    height: 60px;
+    li a {
+      font-size: .9rem;
+      margin: 0 10px;
+      color: $white;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 1px solid $secondary;
+        padding-bottom: 5px;
+        transition: all .2s ease-out;
+      }
+    }
+  }

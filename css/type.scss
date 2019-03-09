@@ -2,9 +2,12 @@ h1 {
     font-family: $titleFont;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 1.6rem;
+    line-height: 2rem;
     margin: 0 0 20px 0;
     color: $secondary;
+    @include desktop {
+      line-height: 1.6rem;
+    }
   }
   
 .fa {
