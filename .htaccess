@@ -1,0 +1,14 @@
+RewriteEngine On
+
+#force www
+RewriteCond %{HTTP_HOST} ^ninypops\.com [NC]
+RewriteRule ^(.*)$ http://www.ninypops.com/$1 [L,R=301,NC]
+
+#remove .php extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+#get rid of trailing slashes
+RewriteCond %{HTTP_HOST} ^(www.)?ninypops\.net$ [NC]
+RewriteRule ^(.+)/$ http://%{HTTP_HOST}/$1 [R=301,L]
