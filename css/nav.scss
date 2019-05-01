@@ -1,6 +1,7 @@
 ul.navigation {
     position: fixed;
     background: $noir;
+    border-left: 10px solid $secondary;
     display: flex;
     flex-flow: row wrap;
     color: $white;
@@ -10,6 +11,7 @@ ul.navigation {
     justify-content: left;
     align-content: center;
     width: 100%;
+    top: 0;
     margin-top: 0;
     height: 60px;
     li a {

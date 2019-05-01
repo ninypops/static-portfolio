@@ -26,6 +26,9 @@ $titleFont    : 'Kaushan Script', cursive;
 
 body {
   margin: 0;
+  width: 100%;
+  height: 100%;
+  background: $noir;
 }
 
 .container {
@@ -33,20 +36,41 @@ body {
   @include desktop { padding: 0 5%; }
 }
 
+a {
+  text-decoration: none;
+  color: $primary;
+  &:hover {
+    // text-decoration: underline;
+  }
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
 main {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   background: $noir;
+  margin-top: 60px;
 }
 
 section {
   display: block;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  margin-top: 0px;
   @include desktop {
     display: flex;
     flex-wrap: nowrap;
+  }
+  &.first-section {
+    height: 100vh;
   }
 }
 
@@ -64,6 +88,20 @@ section {
   @include desktop {
     width: 50%;
     height: 100%;
+  }
+
+  a {
+    padding: 0 5px;
+    &:first-of-type {
+      padding-left: 0;
+    }
+  }
+
+  a i {
+    color: white;
+    &:hover {
+      color: $secondary;
+    }
   }
 }
 
@@ -85,13 +123,12 @@ section {
   background: $noir;
   color: $white;
   width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: left;
+  display: block;
   align-content: center;
   text-align: left;
   &--content {
-    width: 100%;
+    width: 95%;
+    text-align: center;
     margin-bottom: 30px;
     img {
       max-width: 98%;
@@ -105,17 +142,11 @@ section {
          opacity: .9;
        }
     }
-    p { border-top: 1px solid $secondary; padding-top: 15px; }
-    @include tablet {
-      width: 44%;
-    }
-    @include desktop {
-      width: 20%;
-    }
+    p { border-top: 1px solid $secondary; color: $blanc; padding-top: 15px; }
   }
   span {
     background: black;
-    font-size: .6rem;
+    font-size: .8rem;
     padding: 5px 8px;
     &.code {
       color: $secondary;
@@ -124,4 +155,95 @@ section {
       color: $primary;
     }
   }
+
+  @include tablet {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    &--content {
+      text-align: left;
+      width: 33.3%;
+    }
+  }
+
+  @include desktop {
+    justify-content: left;
+    &--content {
+      width: 20%;
+    }
+  }
+}
+
+.portfolio-single {
+  .project-image,
+  .project-details {
+    width: 100%;
+    display: inline-block;
+
+    @include desktop {
+      width: 50%;
+    }
+  }
+
+  .project-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: black;
+    img {
+      width: min-content;
+      height: min-content;
+      margin: auto;
+    }
+
+    @include desktop {
+      height: 100vh;
+    }
+  }
+
+  .project-details {
+    width: auto;
+    color: white;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+
+    #project-title {
+      font-size: 1.8rem;
+    }
+
+    span {
+      background: black;
+      font-size: .8rem;
+      padding: 5px 8px;
+      &.code {
+        color: $secondary;
+      }
+      &.design {
+        color: $primary;
+      }
+    }
+
+    a.portfolio-link {
+      color: $primary;
+    }
+
+  }
+}
+
+.copyright {
+  background: $noir;
+  color: white;
+  font-size: .8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 10px;
+  @include desktop {
+    padding: 0 10%
+  }
+  // p {
+  //   margin: 0;
+  // }
 }
