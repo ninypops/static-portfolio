@@ -1,6 +1,5 @@
 RewriteEngine On
 
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /index.php HTTP/
 RewriteRule ^index.php$ http://www.ninypops.com/ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
