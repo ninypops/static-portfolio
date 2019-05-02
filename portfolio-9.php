@@ -25,7 +25,7 @@
                     <li>jQuery</li>
                 </ul>
 
-                <p></p>
+                <p>“Create a FAQ’s page for the website. The page should provide info and help answer some of the most common questions customers might have about the service Screentec Windscreens offer. It should help visitors to decide to enquire and convert. Must be easy to edit and fully responsive to future-proof the potential of additional questions added later on.”</p>
 
 
                 <a class="portfolio-link" target="_blank" href="https://www.screentecwindscreens.co.uk/faqs/"><p>Go to FAQs →</p></a>

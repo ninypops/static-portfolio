@@ -27,6 +27,8 @@
                 
                 <p>Taking inspiration from the branding, I incorporated the colours and shape motifs into the website components. Using Adobe Photoshop to also edit the colour balance of imagery, the photos compliment the deep blues and cool colour tones.</p>
                 
+                <a class="portfolio-link" target="_blank" href="https://www.figma.com/proto/JuqHU9cV9KIRDBmzqULz06w8/Lucas-Couriers?node-id=0%3A1&scaling=min-zoom"><p>Go To Design →</p></a>
+
             </div>
         </section>
     </main>

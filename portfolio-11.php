@@ -28,7 +28,21 @@
                     <li>InVision App</li>
                 </ul>
 
-                <p></p>
+                <p><strong>Main aims and goals:</strong></p>
+                <ul>
+                    <li>Improve traffic to website</li>
+                    <li>Improve number of phone calls</li>
+                    <li>Encourage home visits to customer's location</li>
+                </ul>
+
+                <p>Finesse Blinds Warrington are a family-run company which has been supplying and installing blinds since being established in 1987. They offer a efficient and friendly service backed up by their membership of the British Blind and Shutter Association.</p>
+                
+                <p>They have recently opened a new showroom and so would like to encourage users to visit here. They also manufacture most of their blinds in-house. They are a main supplier of Louvallite, Eclipse and Arena Blinds.</p>
+
+                <p>Warrington is the main location with Runcorn being their secondary location.</p>
+
+
+                
 
                 <a class="portfolio-link" target="_blank" href="https://www.finesseblindswarrington.uk/"><p>Go to Website →</p></a>
             </div>

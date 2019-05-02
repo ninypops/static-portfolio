@@ -28,8 +28,18 @@
                     <li>InVision App</li>
                 </ul>
 
-                <p></p>
+                <p><strong>Main aims and goals:</strong></p>
+                <ul>
+                    <li>Build brand identity</li>
+                    <li>Brand awareness</li>
+                    <li>Educate on products and services</li>
+                </ul>
 
+                <p>TCL Heating required a simple to use and professional looking website to initially use as a brochure site while they build up the business.</p>
+
+                <p>They are a new company providing very competitive central heating boiler installations from most major manufacturers such as Worcester Bosch, Vaillant, Viessmann, Ideal, Baxi & Gloworm. Specialising in gas boiler installations.</p>
+
+                <a class="portfolio-link" target="_blank" href="https://www.figma.com/proto/K2aqIJT6S7JKwntfRXUTMec3/TCL-Heating?node-id=1%3A2&scaling=min-zoom"><p>Go To Design →</p></a>
             </div>
         </section>
     </main>

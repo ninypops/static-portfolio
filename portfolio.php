@@ -91,6 +91,15 @@
             </div>
 
             <div class="portfolio--content container">
+                <a href="/portfolio-12">
+                    <img class="portfolio--image" src="assets/no-device-imgs/clearfirst-guide-screen.jpg" alt="Clearfirst Preview"/>
+                    <p id="project-title">Clearfirst - Interactive Guide</p>
+                    <span class="tags code">Code</span>
+                    <span class="tags design">Design</span>
+                </a>
+            </div>
+
+            <div class="portfolio--content container">
                <a href="/portfolio-2">
                     <img class="portfolio--image" src="assets/no-device-imgs/hive-honey-screen.jpg" alt="The Hive Honey Shop Preview"/>
                     <p id="project-title">The Hive Honey Shop - eCommerce</p>
